@@ -16,7 +16,7 @@ with smtplib.SMTP("smtp.gmail.com", 587, timeout=120) as connection:
             quote = random.choice(data)
             connection.sendmail(
                 from_addr=my_email,
-                to_addrs="f20190518@hyderabad.bits-pilani.ac.in",
+                to_addrs="#########################@gmail.com",
                 msg=f"Subject:KOMPRI MOTIVATION!\n\n{quote}"
             )
         print(quote)
